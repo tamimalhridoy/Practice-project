@@ -36,8 +36,8 @@ export default function Home() {
               className="dark:invert"
               src="/vercel.svg"
               alt="Vercel logomark"
-              width={20}
-              height={20}
+              width={50}
+              height={50}
             />
             Deploy now
           </a>
@@ -47,7 +47,9 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read our docs
+            <Enter>
+              <input type="button" value="button" />
+            </Enter>
           </a>
         </div>
       </main>
@@ -92,8 +94,8 @@ export default function Home() {
             aria-hidden
             src="/globe.svg"
             alt="Globe icon"
-            width={16}
-            height={16}
+            width={30}
+            height={30}
           />
           Go to nextjs.org →
         </a>
@@ -101,3 +103,7 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+
